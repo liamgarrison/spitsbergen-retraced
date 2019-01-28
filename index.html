@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Spitsbergen Retraced - Home</title>
+  <meta name="description" content="Researching, mountaineering and skiing in the High Arctic, following in the footsteps of the groundbreaking 1923 Oxford University Arctic Expedition.">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/custom-home.css">
+  
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+	function openLightBox() {
+		document.getElementById('lightBox').style.display = "block";
+	}
+
+	function closeLightBox() {
+	// Stop video
+	var iframe = document.getElementById( 'youtube');
+	if ( iframe ) {
+		var iframeSrc = iframe.src;
+		iframe.src = iframeSrc;
+	}
+	// Close light box
+		document.getElementById('lightBox').style.display = "none";
+	}
+</script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo/icon_bluefavicon.png">
+
+</head>
+<body>
+
+
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="hero" class="hero u-full-width">
+  <div class="hero-image"></div>
+  
+  <!-- NAVIGATION BAR -->
+
+<div class="container topnav">
+  <a href="tickets.html">TICKETS</a>
+  <a href="about.html">ABOUT</a>
+  <a href="contact.html">CONTACT</a>
+</div>
+
+  <!-- Logo container -->
+  <div class="container home-logo">
+	<div class = "row ">	
+		<div class="twelve columns">
+		<!-- Mobile logo -->
+		<img src="images/logo/portrait_white.png" class = "mobile-logo" alt="Homepage Logo">
+		<!-- Web logo -->
+		<img src="images/logo/portrait_white@2x.png" class = "web-logo" alt="Homepage Logo">
+		</div>
+	</div>
+  </div>
+    <!-- Watch trailer container -->
+  <div class="container watch-trailer">
+	<div class = "row ">	
+		<div class="twelve columns" >
+				<div class="watch" onclick="openLightBox()">WATCH</div>  
+				<div class="play" onclick="openLightBox()"><i class="fa fa-play-circle fa-2x"></i></div>
+				<div class="trailer" onclick="openLightBox()">TRAILER</div>
+		</div>
+	</div>
+  </div>
+  </div>
+</section>
+
+<!--- VIDEO POPUP --->
+
+<div class="lb" id="lightBox">
+
+
+  <div class="close" onclick="closeLightBox()">&times;</div>
+
+  
+  <div class="lightbox-content">
+  <iframe id="youtube" width="100%" height="100%" src="https://www.youtube.com/embed/ABBVLrfaGCk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> 
+  </div>
+</div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
