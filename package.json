@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon --watch public index.js"
+    "watch-code": "nodemon index.js",
+    "build-css": "node-sass -w scss -o public/css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,14 @@
   },
   "homepage": "https://github.com/liamgarrison/spitsbergen-retraced#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "bootstrap": "^4.3.1",
+    "compress-images": "^1.4.6",
+    "express": "^4.16.4",
+    "imagemin": "^6.1.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-keep-folder": "^5.3.2",
+    "imagemin-pngquant": "^7.0.0",
+    "node-sass": "^4.11.0",
+    "sass": "^1.17.2"
   }
 }
