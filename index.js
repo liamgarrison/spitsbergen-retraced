@@ -1,11 +1,13 @@
-require("dotenv").config();
+// If not in production, default to using dotenv to get custom environment variables
+if (process.env.NODE_ENV != production) {
+  require("dotenv").config();
+}
 const express = require("express");
 const app = express();
 const path = require("path");
 app.use(express.static("public"));
 app.use(express.urlencoded());
 // app.use(express.json());
-
 const port = process.env.PORT || 4000;
 
 // Load film
