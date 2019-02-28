@@ -1,0 +1,7 @@
+File from: [raw-images/headshots/endre.jpg]
+
+File to: [public/images/headshots/endre.jpg]
+
+Compression algorithm: [mozjpeg]
+
+Description: Error: spawn /mnt/c/dev/spitsbergenretraced.com/node_modules/mozjpeg/vendor/cjpeg ENOENT

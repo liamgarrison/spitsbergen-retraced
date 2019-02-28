@@ -1,0 +1,7 @@
+File from: [raw-images/logo/portrait_white.png]
+
+File to: [public/images/logo/portrait_white.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: spawn /mnt/c/dev/spitsbergenretraced.com/node_modules/pngquant-bin/vendor/pngquant ENOENT
