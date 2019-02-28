@@ -5,6 +5,9 @@ if (process.env.NODE_ENV != "production") {
 const express = require("express");
 const app = express();
 const path = require("path");
+const compression = require("compression");
+app.use(compression()); // for gzipping files
+
 app.use(express.static("public"));
 app.use(express.urlencoded());
 // app.use(express.json());
