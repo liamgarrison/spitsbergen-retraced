@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 
 // Your variable overrides
@@ -9,7 +7,7 @@ $primary: #002147;
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
