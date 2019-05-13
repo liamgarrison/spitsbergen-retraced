@@ -1,7 +1,0 @@
-File from: [raw-images/logo/landscape_blue@3x.png]
-
-File to: [public/images/logo/landscape_blue@3x.png]
-
-Compression algorithm: [pngquant]
-
-Description: Error: spawn /mnt/c/dev/spitsbergenretraced.com/node_modules/pngquant-bin/vendor/pngquant ENOENT
