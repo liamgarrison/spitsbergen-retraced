@@ -5,14 +5,14 @@ import logoWhite from '../images/logo/portrait_white.png';
 class Banner extends React.Component {
   render() {
     return (
-      <div class="home-banner">
-        <div class="content">
-          <div class="image-wrapper">
+      <div className="home-banner">
+        <div className="content">
+          <div className="image-wrapper">
             <img src={logoWhite} alt="Spitsbergen Retraced Logo" />
           </div>
-          <div class="scroll-more">
+          <div className="scroll-more">
             <p>Scroll for more</p>
-            <i class="fas fa-arrow-down " />
+            <i className="fas fa-arrow-down " />
           </div>
         </div>
       </div>

@@ -105,30 +105,25 @@ a {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 50px 0 50px 0;
   text-align: center;
 }
 
-.footer .image-wrapper {
-}
-
-.footer .image-wrapper img {
+.footer img {
   width: 100px;
-  height: auto;
 }
 
-.youtube-wrapper {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
-.youtube-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.film-wrapper {
   width: 100%;
-  height: 100%;
+  height: 500px;
+  position:relative;
+}
+
+.film-wrapper iframe {
+  position:absolute;
+  width:100%;
+  height:100%;
 }
 
 .social-icons {
