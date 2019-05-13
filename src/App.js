@@ -1,25 +1,26 @@
 import React from 'react';
-import logoWhite from './images/logo/portrait_white.png';
-import logoBlue from './images/logo/portrait_blue.png';
-import sampleImage from './images/objectives/history.jpg';
+// Image imports
+import logoBlue from './images/logo/icon_blue.png';
+import history from './images/objectives/history.jpg';
+import mountaineering from './images/objectives/mountaineering.jpg';
+import science from './images/objectives/science.jpg';
+import endre from './images/headshots/endre.jpg';
+import james from './images/headshots/james.jpg';
+import jamie from './images/headshots/jamie.jpg';
+import liam from './images/headshots/liam.jpg';
+import will from './images/headshots/will.jpg';
+// File import
 import report from './files/spitsbergen-retraced-expedition-report.pdf';
+// CSS
 import './App.scss';
+// Components
 import Card from './components/card'
+import Banner from './components/banner'
 
 function App() {
   return (
     <div className="App">
-      <div class="home-banner">
-        <div class="content">
-          <div class="image-wrapper">
-            <img src={logoWhite} alt="Spitsbergen Retraced Logo" />
-          </div>
-          <div class="scroll-more">
-            <p>Scroll for more</p>
-            <i class="fas fa-arrow-down " />
-          </div>
-        </div>
-      </div>
+      <Banner/>
       <div class="container">
         <div class="row mt-5">
           <div class="col-xs-12">
@@ -48,21 +49,24 @@ function App() {
         <div class="row ">
           <div class="col-xs-12 col-sm-6 col-lg-4">
             <Card
-              imageUrl={sampleImage}
+              height="200"
+              imageUrl={history}
               cardTitle="Recreating History"
               cardText="In the footsteps of the first crossing of Spitsbergen"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
             <Card
-              imageUrl={sampleImage}
+              height="200"
+              imageUrl={mountaineering}
               cardTitle="Arctic Mountaineering"
               cardText="Rocky ridges and first ascents in a sublime Alpine landscape"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
             <Card
-              imageUrl={sampleImage}
+              height="200"
+              imageUrl={science}
               cardTitle="Scientific Research"
               cardText="Creating high-resolution 3D models of glaciers never seen
                   before"
@@ -99,45 +103,44 @@ function App() {
         <div class="row ">
           <div class="col-xs-12 col-sm-6 col-xl-4">
             <Card
-              imageUrl={sampleImage}
+              height="300"
+              imageUrl={james}
               cardTitle="James Lam"
               cardText="Expedition Leader"
             />
           </div>
           <div class="col-xs-12 col-sm-6 col-xl-4">
             <Card
-              imageUrl={sampleImage}
+              height="300"
+              imageUrl={will}
               cardTitle="Will Hartz"
               cardText="Expedition Medical Officer"
             />
           </div>
 
           <div class="col-xs-12 col-sm-6 col-xl-4">
-            <div class="team-card card">
-              <img src={sampleImage} alt=""/>
-              <div class="card-body">
-                <h1 class="card-title">Jamie Gardiner</h1>
-                <p class="card-text">Expedition Historian and Filmmaker</p>
-              </div>
-            </div>
+            <Card
+              height="300"
+              imageUrl={jamie}
+              cardTitle="Jamie Gardiner"
+              cardText="Expedition Historian and Filmmaker"
+            />
           </div>
           <div class="col-xs-12 col-sm-6 col-xl-4">
-            <div class="team-card card">
-              <img src={sampleImage} alt=""/>
-              <div class="card-body">
-                <h1 class="card-title">Liam Garrison</h1>
-                <p class="card-text">Expedition Photographer and Filmmaker</p>
-              </div>
-            </div>
+            <Card
+              height="300"
+              imageUrl={liam}
+              cardTitle="Liam Garrison"
+              cardText="Expedition Photographer and Filmmaker"
+            />
           </div>
           <div class="col-xs-12 col-sm-6 col-xl-4">
-            <div class="team-card card">
-              <img src={sampleImage} alt=""/>
-              <div class="card-body">
-                <h1 class="card-title">Endre Før Gjermundsen</h1>
-                <p class="card-text">Local Polar Expert</p>
-              </div>
-            </div>
+            <Card
+              height="300"
+              imageUrl={endre}
+              cardTitle="Endre Før Gjermundsen"
+              cardText="Local Polar Expert"
+            />
           </div>
         </div>
         <div class="row mt-5 ">

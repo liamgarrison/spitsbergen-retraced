@@ -90,25 +90,16 @@ a {
   margin-bottom: 5px;
 }
 
-.team-card {
+.card {
   margin: 20px 0;
-}
-
-.team-card .card-body .card-title {
-  font-size: 22px;
-}
-
-.objective-card {
-  margin: 20px 0;
-}
-
-.objective-card .card-body .card-title {
-  font-size: 22px;
 }
 
 .card img {
-  height: 250px;
   object-fit: cover;
+}
+
+.card-title {
+  font-size: 22px;
 }
 
 .footer {

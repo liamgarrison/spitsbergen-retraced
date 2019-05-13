@@ -4,7 +4,7 @@ class Card extends React.Component {
   render() {
     return (
       <div class="card">
-      <img src={this.props.imageUrl} alt=""/>
+      <img src={this.props.imageUrl} height={this.props.height} alt=""/>
         <div class="card-body">
           <h1 class="card-title">{this.props.cardTitle}</h1>
           <p class="card-text">
