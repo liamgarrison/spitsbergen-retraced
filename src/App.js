@@ -137,13 +137,13 @@ class App extends React.Component {
               </p>
 
               <p className="social-icons">
-                <a target="_blank" href="https://facebook.com/svalbard2016">
+                <a target="_blank" href="https://facebook.com/svalbard2016" rel="noopener noreferrer">
                   <i className="fab fa-facebook" />
                 </a>
-                <a target="_blank" href="https://twitter.com/svalbard2016">
+                <a target="_blank" href="https://twitter.com/svalbard2016" rel="noopener noreferrer">
                   <i className="fab fa-twitter" />
                 </a>
-                <a target="_blank" href="https://instagram.com/svalbard2016">
+                <a target="_blank" href="https://instagram.com/svalbard2016" rel="noopener noreferrer">
                   <i className="fab fa-instagram" />
                 </a>
               </p>
@@ -208,7 +208,7 @@ class App extends React.Component {
                 and more!
               </p>
               <p>
-                <a className="btn btn-primary btn-large" target="blank" href={report}>
+                <a className="btn btn-primary btn-large" target="blank" rel="noopener noreferrer" href={report}>
                   Download Expedition Report
                 </a>
               </p>
